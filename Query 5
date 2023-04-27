@@ -1,0 +1,7 @@
+5.CREATE TABLE Event_Records 
+( Event_id INT NOT NULL, 
+Participant_id INT NOT NULL,
+PRIMARY KEY (Event_id, Participant_id),
+FOREIGN KEY (Event_id) REFERENCES Event(Event_id),
+FOREIGN KEY (Participant_id) REFERENCES Participant(Participant_id)
+);
