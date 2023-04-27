@@ -1,0 +1,7 @@
+2.CREATE TABLE Security ( College_id INT NOT NULL, 
+college_name VARCHAR(50) NOT NULL, 
+ent_pass VARCHAR(50) NOT NULL, 
+Participant_id INT NOT NULL,
+PRIMARY KEY (College_id),
+FOREIGN KEY (Participant_id) REFERENCES Participant(Participant_id)
+);
