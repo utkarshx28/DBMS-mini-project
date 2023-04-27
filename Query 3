@@ -1,0 +1,6 @@
+3.CREATE TABLE Participant ( F_Name VARCHAR(50)
+NOT NULL, L_Name VARCHAR(50) NOT NULL
+, Email VARCHAR(50) NOT NULL,
+Phone_Number VARCHAR(20) NOT NULL, 
+Participant_id INT NOT NULL AUTO_INCREMENT, PRIMARY KEY (Participant_id)
+);
