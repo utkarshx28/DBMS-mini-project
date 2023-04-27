@@ -1,0 +1,11 @@
+4.CREATE TABLE Expenditure
+( Type VARCHAR(50) NOT NULL, 
+Name VARCHAR(50) NOT NULL, 
+Amount DECIMAL(10,2) NOT NULL
+);
+
+CREATE TABLE Admin (
+username VARCHAR(50) NOT NULL,
+password VARCHAR(50) NOT NULL
+
+);
